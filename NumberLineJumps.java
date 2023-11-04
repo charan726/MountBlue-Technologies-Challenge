@@ -6,6 +6,7 @@ public class NumberLineJumps{
         int b=sc.nextInt();
         int x=sc.nextInt();
         int y=sc.nextInt();
+        // Assuming Arithmetic Progression.
         float n=(float)(a-x)/(float)(y-b);
         float d= n/(int)n;
         if(n<1 || d!=1){
